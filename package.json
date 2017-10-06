@@ -1,0 +1,58 @@
+{
+  "name": "djello",
+  "version": "1.0.0",
+  "description": "tasty",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "seeds": "nodemon seeds/index.js",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDHalverson/djello.git"
+  },
+  "author": "Ian Halverson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDHalverson/djello/issues"
+  },
+  "homepage": "https://github.com/IDHalverson/djello#readme",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "compression": "^1.7.0",
+    "connect-redis": "^3.3.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-flash": "0.0.2",
+    "express-method-override-get-post-support": "0.0.7",
+    "express-session": "^1.15.5",
+    "md5": "^2.2.1",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.11",
+    "mongoose-unique-validator": "^1.0.6",
+    "morgan": "^1.8.2",
+    "morgan-toolkit": "^1.0.2",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "material-ui": "^0.19.2"
+  }
+}
